@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.title{
+    @extend %rubik-500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.text{
+    @extend %rubik-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
