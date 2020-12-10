@@ -16,7 +16,8 @@ a {
 }
 
 .title {
-  @e font-size: 35px;
+  @extend %rubik-500;
+  font-size: 35px;
   line-height: 50px;
   color: #0B132A;
 }

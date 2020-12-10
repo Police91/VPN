@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="../vpn/scss/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vpn/scss/slick.css">
+    <link rel="stylesheet" href="../vpn/scss/jquery.fancybox.css">
+    <link rel="stylesheet" href="../vpn/scss/style.css">
     <title>Vpn</title>
 </head>
 
@@ -51,8 +53,273 @@
                     <img class="bg-img" src="../vpn/img/header__img.png" alt="img">
                 </div>
             </div>
+            <div class="box__information">
+                <div class="box__information-inner">
+                    <div class="box__information-inner-user">
+                        <div class="box__information-inner-img">
+                            <img class="user-img" src="../vpn/img/user.svg" alt="user">
+                        </div>
+                        <div class="box__information-inner-all">
+                            <div class="box__information-inner-num">90+</div>
+                            <div class="box__information-inner-text">Users</div>
+                        </div>
+                    </div>
+                    <div class="box__information-inner-user">
+                        <div class="box__information-inner-img">
+                            <img class="locations-img" src="../vpn/img/user.svg" alt="Locations">
+                        </div>
+                        <div class="box__information-inner-all">
+                            <div class="box__information-inner-num">30+</div>
+                            <div class="box__information-inner-text">Locations</div>
+                        </div>
+                    </div>
+                    <div class="box__information-inner-user">
+                        <div class="box__information-inner-img">
+                            <img class="servers-img" src="../vpn/img/user.svg" alt="Servers">
+                        </div>
+                        <div class="box__information-inner-all">
+                            <div class="box__information-inner-num">50+</div>
+                            <div class="box__information-inner-text">Servers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
+    <section class="provide">
+        <div class="container">
+            <div class="provide__inner">
+
+                <div class="provide__inner-img">
+                    <img class="provide__inner-img-bg" src="../vpn/img/provide_bg.svg" alt="provide__bg">
+                </div>
+
+                <div class="provide__content">
+                    <div class="provide__content-title title">
+                        <span> We Provide Many Features You Can Use</span>
+                    </div>
+                    <div class="provide__content-text text">
+                        <span>You can explore the features that we provide with fun and have their own functions each
+                            feature.</span>
+                    </div>
+                    <div class="provide__content-list">
+                        <ul class="provide__content-list-item">
+                            <li class="provide__content-list-items">Powerfull online protection.</li>
+                            <li class="provide__content-list-items">Internet without borders.</li>
+                            <li class="provide__content-list-items">Supercharged VPN</li>
+                            <li class="provide__content-list-items">No specific time limits.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="plan">
+        <div class="container">
+            <div class="plan__title title">
+                <span>Choose Your Plan</span>
+            </div>
+            <div class="plan__text text">
+                <span>Let's choose the package that is best for you and explore it happily and cheerfully.</span>
+            </div>
+            <div class="plan__box-all">
+                <div class="plan__box">
+                    <div class="plan__box-inner">
+
+                        <img class="plan__box-inner-img-free" src="../vpn/img/Free.svg" alt="free-img">
+
+                        <div class="plan__box-inner-title">
+                            <span>Free Plan</span>
+                        </div>
+                        <div class="plan__box-inner-list">
+                            <ul class="plan__box-inner-list-item">
+                                <li class="plan__box-inner-list-items">Unlimited Bandwitch</li>
+                                <li class="plan__box-inner-list-items">Encrypted Connection</li>
+                                <li class="plan__box-inner-list-items">No Traffic Logs</li>
+                                <li class="plan__box-inner-list-items">Works on All Devices</li>
+                            </ul>
+                        </div>
+                        <div class="plan__box-inner-prise">
+                            <span>Free</span>
+                        </div>
+                        <div class="plan__box-inner-btn">
+                            <button>Select</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan__box">
+                    <div class="plan__box-inner">
+
+                        <img class="plan__box-inner-img-free" src="../vpn/img/Standard.svg" alt="free-img">
+
+                        <div class="plan__box-inner-title">
+                            <span>Standard Plan</span>
+                        </div>
+                        <div class="plan__box-inner-list">
+                            <ul class="plan__box-inner-list-item">
+                                <li class="plan__box-inner-list-items">Unlimited Bandwitch</li>
+                                <li class="plan__box-inner-list-items">Encrypted Connection</li>
+                                <li class="plan__box-inner-list-items">Yes Traffic Logs</li>
+                                <li class="plan__box-inner-list-items">Works on All Devices</li>
+                                <li class="plan__box-inner-list-items">Connect Anyware</li>
+                            </ul>
+                        </div>
+                        <div class="plan__box-inner-prise">
+                            <span>$9 / mo</span>
+                        </div>
+                        <div class="plan__box-inner-btn">
+                            <button>Select</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan__box">
+                    <div class="plan__box-inner">
+
+                        <img class="plan__box-inner-img-free" src="../vpn/img/Premium.svg" alt="free-img">
+
+                        <div class="plan__box-inner-title">
+                            <span>Premium Plan</span>
+                        </div>
+                        <div class="plan__box-inner-list">
+                            <ul class="plan__box-inner-list-item">
+                                <li class="plan__box-inner-list-items">Unlimited Bandwitch</li>
+                                <li class="plan__box-inner-list-items">Encrypted Connection</li>
+                                <li class="plan__box-inner-list-items">Yes Traffic Logs</li>
+                                <li class="plan__box-inner-list-items">Works on All Devices</li>
+                                <li class="plan__box-inner-list-items">Connect Anyware</li>
+                                <li class="plan__box-inner-list-items">Get New Features</li>
+                            </ul>
+                        </div>
+                        <div class="plan__box-inner-prise">
+                            <span>$12 / mo</span>
+                        </div>
+                        <div class="plan__box-inner-btn">
+                            <button>Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="global">
+        <div class="container">
+            <div class="global__title title">
+                <span>Huge Global Network of Fast VPN</span>
+            </div>
+            <div class="global__pre-title">
+                <span>See <span>LaslesVPN</span> everywhere to make it easier for you when you move locations.</span>
+            </div>
+            <div class="global__map">
+                <img class="global__map-img" src="../vpn/img/map.svg" alt="map">
+            </div>
+            <div class="global__map-dots">
+                <span class="global__map-dots-1"></span>
+                <span class="global__map-dots-2"></span>
+                <span class="global__map-dots-3"></span>
+                <span class="global__map-dots-4"></span>
+                <span class="global__map-dots-5"></span>
+                <span class="global__map-dots-6"></span>
+                <span class="global__map-dots-7"></span>
+                <span class="global__map-dots-8"></span>
+                <span class="global__map-dots-9"></span>
+                <span class="global__map-dots-10"></span>
+                <span class="global__map-dots-11"></span>
+                <span class="global__map-dots-12"></span>
+                <span class="global__map-dots-13"></span>
+                <span class="global__map-dots-14"></span>
+                <span class="global__map-dots-15"></span>
+                <span class="global__map-dots-16"></span>
+                <span class="global__map-dots-17"></span>
+                <span class="global__map-dots-18"></span>
+            </div>
+            <div class="global__sponsor">
+                <img class="global__sponsor-netflix" src="../vpn/img/Mask Group-1.svg" alt="">
+                <img class="global__sponsor-netflix" src="../vpn/img/Mask Group-2.svg" alt="">
+                <img class="global__sponsor-netflix" src="../vpn/img/Mask Group-3.svg" alt="">
+                <img class="global__sponsor-netflix" src="../vpn/img/Mask Group-4.svg" alt="">
+                <img class="global__sponsor-netflix" src="../vpn/img/Mask Group-5.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__title title">
+                <span>Trusted by Thousands of Happy Customer</span>
+            </div>
+            <div class="slider__pre-title">
+                <span>These are the stories of our customers who have joined us with great pleasure when using this
+                    crazy feature.</span>
+            </div>
+            <div class="slider__box">
+                <div class="slider__item">
+                    <div class="slider__items">
+                        <img class="slider__items-img" src="../vpn/img/slider-1.svg" alt="user__1">
+                        <div class="slider__items-name">
+                            <span>Viezh Robert</span>
+                        </div>
+                        <div class="slider__items-address">
+                            <span>Warsaw, Poland</span>
+                        </div>
+                        <div class="slider__items-text">
+                            “Wow... I am very happy to use this VPN, it turned out to be more than my expectations
+                            and so far there have been no problems. LaslesVPN always the best”.
+                        </div>
+                        <div class="slider__items-num">4.5</div>
+                        <img class="slider__items-star" src="../vpn/img/star.svg" alt="star">
+                    </div>
+                    <div class="slider__items">
+                        <img class="slider__items-img" src="../vpn/img/user2.svg" alt="user__1">
+                        <div class="slider__items-name">
+                            <span>Yessica</span>
+                        </div>
+                        <div class="slider__items-address">
+                            <span>Shanxi, China</span>
+                        </div>
+                        <div class="slider__items-text">
+                            “I like it because I like to travel far and still can connect with high speed.”.
+                        </div>
+                        <div class="slider__items-num">4.5</div>
+                        <img class="slider__items-star" src="../vpn/img/star.svg" alt="star">
+                    </div>
+                    <div class="slider__items">
+                        <img class="slider__items-img" src="../vpn/img/user3.svg" alt="user__1">
+                        <div class="slider__items-name">
+                            <span>Kim Young</span>
+                        </div>
+                        <div class="slider__items-address">
+                            <span>Seoul, South Korea</span>
+                        </div>
+                        <div class="slider__items-text">
+                            “This is very unusual for my business that currently requires a virtual private network that
+                            has high security.”.
+                        </div>
+                        <div class="slider__items-num">4.5</div>
+                        <img class="slider__items-star" src="../vpn/img/star.svg" alt="star">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="container">
+        <div class="subscribe__box">    
+        <div class="subscribe__title title">
+            <span>Now for Get Special Features!</span> 
+        </div>
+        <div class="subscribe__pre-title">
+            <span>Let's subscribe with us and find the fun.</span> 
+        </div>
+        <button>Subscribe Now</button>
+        </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../vpn/js/slick.min.js"></script>
+    <script src="../vpn/js/jquery.fancybox.min.js"></script>
+    <script src="../vpn/js/main.js"></script>
 </body>
 
 </html>
